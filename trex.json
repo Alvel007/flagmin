@@ -1,0 +1,194 @@
+{
+    "accepted_count":4606,
+    "active_pool":
+    {
+        "difficulty":"2.00 G",
+        "dns_https_server":"",
+        "last_submit_ts":1714589650,
+        "ping":73,"proxy":"",
+        "retries":0,"url":"stratum+tcp://pool.ru.woolypooly.com:3094",
+        "user":"cfx:aarr2a5xpv3ejumcmpdpx44j7h58jvw2z64tf4khdd.Worker_1",
+        "worker":""
+    },
+    "algorithm":"octopus",
+    "api":"4.1",
+    "build_date":"Oct 14 2022 04:34:44",
+    "coin":"",
+    "description":"T-Rex NVIDIA GPU miner",
+    "driver":"545.84",
+    "gpu_total":3,
+    "gpus":
+    [
+        {
+            "cclock":1005,
+            "dag_build_mode":0,
+            "device_id":0,
+            "efficiency":"268kH/W",
+            "fan_speed":95,
+            "gpu_id":0,
+            "gpu_user_id":0,
+            "hashrate":83601571,
+            "hashrate_day":87551489,
+            "hashrate_hour":86352428,
+            "hashrate_instant":87789885,
+            "hashrate_minute":83428684,
+            "intensity":22.0,
+            "lhr_lock_count":0,
+            "lhr_tune":0.0,
+            "low_load":false,
+            "mclock":10652,
+            "memory_temperature":62,
+            "mtweak":0,
+            "name":"RTX 3080",
+            "paused":false,
+            "pci_bus":2,
+            "pci_domain":0,
+            "pci_id":0,
+            "potentially_unstable":false,
+            "power":331,
+            "power_avr":312,
+            "shares":
+            {
+                "accepted_count":1565,
+                "invalid_count":0,
+                "last_share_diff":0.0,
+                "last_share_submit_ts":0,
+                "max_share_diff":0.0,
+                "max_share_submit_ts":0,
+                "rejected_count":0,
+                "solved_count":0
+            },
+            "temperature":39,
+            "uuid":"01ebeced5639b41a7dca6337d298319c",
+            "vendor":"ASUS"
+        },
+        {
+            "cclock":1200,
+            "dag_build_mode":0,
+            "device_id":1,
+            "efficiency":"291kH/W",
+            "fan_speed":95,
+            "gpu_id":1,
+            "gpu_user_id":1,
+            "hashrate":91263801,
+            "hashrate_day":95761592,
+            "hashrate_hour":94304147,
+            "hashrate_instant":95955363,
+            "hashrate_minute":91003665,
+            "intensity":22.0,
+            "lhr_lock_count":0,
+            "lhr_tune":0.0,
+            "low_load":false,
+            "mclock":10751,
+            "memory_temperature":84,
+            "mtweak":0,
+            "name":"RTX 3080",
+            "paused":false,
+            "pci_bus":4,
+            "pci_domain":0,
+            "pci_id":0,
+            "potentially_unstable":false,
+            "power":333,
+            "power_avr":314,
+            "shares":
+            {
+                "accepted_count":1737,
+                "invalid_count":0,
+                "last_share_diff":0.0,
+                "last_share_submit_ts":0,
+                "max_share_diff":0.0,
+                "max_share_submit_ts":0,
+                "rejected_count":0,
+                "solved_count":0
+            },
+            "temperature":37,
+            "uuid":"33d7dabbbb5e1ca00424af49f652f6a4",
+            "vendor":"ASUS"
+        },
+        {
+            "cclock":810,
+            "dag_build_mode":0,
+            "device_id":2,
+            "efficiency":"263kH/W",
+            "fan_speed":95,
+            "gpu_id":2,
+            "gpu_user_id":2,
+            "hashrate":69499738,
+            "hashrate_day":72048457,
+            "hashrate_hour":71136763,
+            "hashrate_instant":72368624,
+            "hashrate_minute":69399851,
+            "intensity":22.0,
+            "lhr_lock_count":0,
+            "lhr_tune":0.0,
+            "low_load":false,
+            "mclock":10551,
+            "memory_temperature":76,
+            "mtweak":0,
+            "name":"RTX 3080",
+            "paused":false,
+            "pci_bus":5,
+            "pci_domain":0,
+            "pci_id":0,
+            "potentially_unstable":false,
+            "power":275,
+            "power_avr":264,
+            "shares":
+            {
+                "accepted_count":1304,
+                "invalid_count":0,
+                "last_share_diff":0.0,
+                "last_share_submit_ts":0,
+                "max_share_diff":0.0,
+                "max_share_submit_ts":0,
+                "rejected_count":0,
+                "solved_count":0
+            },
+            "temperature":35,
+            "uuid":"21daf9ce09e6db87e8bb05bdbac6aafb",
+            "vendor":"ASUS"
+        }
+    ],
+    "hashrate":244365110,
+    "hashrate_day":255361538,
+    "hashrate_hour":251793338,
+    "hashrate_minute":243832200,
+    "invalid_count":0,
+    "name":"t-rex",
+    "os":"win",
+    "paused":false,
+    "rejected_count":0,
+    "revision":"104788c2d052",
+    "sharerate":7.3529999999999998,
+    "sharerate_average":7.2300000000000004,
+    "solved_count":0,
+    "success":1,
+    "time":1714589684,
+    "uptime":38256,
+    "validate_shares":false,
+    "version":"0.26.8",
+    "watchdog_stat":
+    {
+        "built_in":true,
+        "startup_ts":587,
+        "total_restarts":0,
+        "uptime":38258,
+        "wd_version":"0.26.8"
+    }
+}
+
+[{'device_id': 0, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 54, 'temperature': 33, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 0}, {'device_id': 1, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 74, 'temperature': 29, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 0}, {'device_id': 2, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 70, 'temperature': 28, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 0}]
+[{'device_id': 0, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 54, 'temperature': 33, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 0}, {'device_id': 1, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 74, 'temperature': 29, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 0}, {'device_id': 2, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 70, 'temperature': 28, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 0}]
+[{'device_id': 0, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 54, 'temperature': 33, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 0}, {'device_id': 1, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 74, 'temperature': 29, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 0}, {'device_id': 2, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 70, 'temperature': 28, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 0}]
+
+t_rex_cmd = r'C:\Miners\t-rex\t-rex.exe -a octopus --api-bind-http 0.0.0.0:4067 --fan 95,95,95 --lock-cclock 1000,900,800 --mclock 1400,1200,1300 -o stratum+tcp://pool.ru.woolypooly.com:3094 -u cfx:aarr2a5xpv3ejumcmpdpx44j7h58jvw2z64tf4khdd.Worker_1 -p x'
+
+
+C:\Miners\t-rex\t-rex.exe -a octopus --api-bind-http 0.0.0.0:4067 95/95/95 1400,1200,1300 1000,900,800 -o stratum+tcp://pool.ru.woolypooly.com:3094 -u cfx:aarr2a5xpv3ejumcmpdpx44j7h58jvw2z64tf4khdd.Worker_1 -p x
+
+
+[{'device_id': 0, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 56, 'temperature': 34, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 1}, {'device_id': 1, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 78, 'temperature': 31, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 1}, {'device_id': 2, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 80, 'temperature': 32, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 1}]
+[{'device_id': 0, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 58, 'temperature': 34, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 2}, {'device_id': 1, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 78, 'temperature': 31, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 2}, {'device_id': 2, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 80, 'temperature': 32, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 2}]
+
+
+[{'device_id': 0, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 56, 'temperature': 34, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 5}, {'device_id': 1, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 78, 'temperature': 31, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 5}, {'device_id': 2, 'vendor': 'ASUS', 'name': 'RTX 3080', 'memory_temperature': 80, 'temperature': 32, 'max_mtemp_count': 0, 'max_ctemp_count': 0, 'min_mtemp_count': 5}]
