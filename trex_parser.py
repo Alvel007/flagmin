@@ -118,9 +118,9 @@ def format_gmem_default(num_gpu, trex_gmem):
     list_frequencies = [str(speed) for speed in gmem_speeds]
     return f"--mclock {','.join(list_frequencies)}"
 
-def format_gcore_default(num_gpu, trex_gmem):
+def format_gcore_default(num_gpu, trex_gcore):
     """Частоты ядер GPU для старта майнера по умолчанию"""
-    gcore_speeds = [trex_gmem - 150 for _ in range(num_gpu)]
+    gcore_speeds = [trex_gcore - 150 for _ in range(num_gpu)]
     list_frequencies = [str(speed) for speed in gcore_speeds]
     return f"--lock-cclock {','.join(list_frequencies)}"
 
@@ -277,6 +277,15 @@ while True:
             raise Exception('Не удалось запустить t-rex.exe, проверьте настройки майнера!')
         if len(autotune_gmem_pool) != num_gpu:
             print('Настройки атотюна в config.ini некорректны, перезапускаю t-rex.exe ')
+            # Переписываем настройки
+            conf = configparser.ConfigParser()
+            conf.read('config.ini', encoding='utf-8')
+            conf['setting']['trex_gmem_pool'] = ','.join([str(trex_gmem - 300)] * num_gpu)
+            conf['setting']['trex_gcore_pool'] = ','.join([str(trex_gcore - 150)] * num_gpu)
+            with open('config.ini', 'w', encoding='utf-8') as configfile:
+                conf.write(configfile)
+            autotune_gmem_pool = [trex_gmem - 300] * num_gpu
+            autotune_gcore_pool = [trex_gcore - 150] * num_gpu
             start_trex_process(speed_fan=format_fan_speed(num_gpu, trex_fan), speed_gmem=format_gmem_default(num_gpu, trex_gmem), speed_gcore=format_gcore_default(num_gpu, trex_gcore), power_limit=power_limit(num_gpu, trex_power))
             time.sleep(40)
         else:
